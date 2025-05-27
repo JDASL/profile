@@ -6,12 +6,17 @@ body {
 }
 
 #introduction{
-  background-color: rgb(198, 155, 0);
+  background-color: rgb(117, 189, 218);
   padding: 100px;
 }
 
-h1{
-  font-size: 70px;
+h1.text-center {
+  font-size: 80px;
+  font-family: "Bodoni Moda";
+  
+}
+h4.text-center {
+  color: rgb(255, 255, 255);
 }
 
 .navbar-logo{
@@ -38,5 +43,8 @@ li {
   max-width: 300px;
   margin-bottom: 0;
   text-align: center;
-  
+}
+
+.self-introduction {
+  padding: 20px;
 }
