@@ -10,8 +10,16 @@ body {
   margin: 0 auto;
 }
 
+.extra-link-info {
+  font-size: 11px;
+}
+
+#external-link {
+  text-decoration: none;
+}
+
 #introduction{
-  background-color: #7F8369;
+  background-color: #98C3E3;
   padding: 100px;
 }
 
@@ -25,7 +33,7 @@ h4.text-center {
 }
 
 .self-introduction {
-  color: #B0B4B7;
+  color: #5e5e5e;
 }
 
 .navbar-logo{
@@ -68,11 +76,27 @@ li {
   display: block;
 }
 
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
+#project-luxury-fashion img {
+  margin: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-a.section-one-link {
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; /* aligns image and text vertically */
+  gap: 2rem; /* optional: controls spacing between the two columns */
+  background-color: #160906;
+  color: white;
+}
+
+.container p {
+  margin-top: 0;
+}
+
+#section-one-link {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -89,3 +113,4 @@ a.section-one-link {
   gap: 10px;
   border-radius: 30px;
 }
+
