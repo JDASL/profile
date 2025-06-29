@@ -19,21 +19,30 @@ body {
 }
 
 #introduction{
-  background-color: #98C3E3;
-  padding: 100px;
+  background-color: #EEE8DC;
+  color: #2c2c2c; 
+  padding: 60px 20px;
 }
 
-h1.text-center {
-  font-size: 80px;
-  font-family: "Bodoni Moda";
-  
+h1.text-center, h2.text-center {
+  color: #1a1a1a; 
 }
-h4.text-center {
-  color: rgb(255, 255, 255);
+
+h1, h2 {
+  text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);
 }
 
 .self-introduction {
   color: #5e5e5e;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#front-photo {
+  max-width: 250px;
+  height: auto;
+  margin-top: 20px;
 }
 
 .navbar-logo{
@@ -60,10 +69,6 @@ li {
   max-width: 300px;
   margin-bottom: 0;
   text-align: center;
-}
-
-.self-introduction {
-  padding: 20px;
 }
 
 .grid {
@@ -113,4 +118,60 @@ li {
   gap: 10px;
   border-radius: 30px;
 }
+.mobile-project-description {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #2c2c2c; /* Adjust for dark/light background */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
 
+@media (max-width: 600px) {
+  .mobile-project-description {
+    font-size: 16px;
+    padding: 20px 16px;
+    line-height: 1.9;
+  }
+}
+
+
+.footer-bio {
+  color: #ccc;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-icons a {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+
+.footer-icons a:hover {
+  color: #ffffff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .footer-icons a {
+    font-size: 24px;
+    margin: 0 12px;
+  }
+}
