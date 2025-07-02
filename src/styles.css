@@ -118,6 +118,13 @@ li {
   gap: 10px;
   border-radius: 30px;
 }
+
+#project-one {
+  margin: 0;
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
 .mobile-project-description {
   font-size: 15px;
   line-height: 1.8;
