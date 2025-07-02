@@ -14,8 +14,22 @@ body {
   font-size: 11px;
 }
 
-#external-link {
+a {
   text-decoration: none;
+  color: inherit;
+}
+
+a .emoji {
+  text-decoration: none;
+  color: inherit;
+}
+
+.emoji {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.2em;
+  vertical-align: middle;
 }
 
 #introduction{
@@ -118,13 +132,26 @@ li {
   gap: 10px;
   border-radius: 30px;
 }
-
+#main-project-section {
+  background-color: #f6cd7c;
+}
 #project-one {
   margin: 0;
   display: block;
   max-width: 50%;
   height: auto;
 }
+
+#world-clock-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+#world-clock-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
 .mobile-project-description {
   font-size: 15px;
   line-height: 1.8;
