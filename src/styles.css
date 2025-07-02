@@ -14,24 +14,6 @@ body {
   font-size: 11px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a .emoji {
-  text-decoration: none;
-  color: inherit;
-}
-
-.emoji {
-  text-decoration: none;
-  color: inherit;
-  font-family: inherit;
-  font-size: 1.2em;
-  vertical-align: middle;
-}
-
 #introduction{
   background-color: #EEE8DC;
   color: #2c2c2c; 
@@ -195,8 +177,6 @@ li {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
-
 
 .footer-icons a:hover {
   color: #ffffff;
